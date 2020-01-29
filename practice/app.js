@@ -47,22 +47,22 @@ $("document").ready(function() {
     $("body").append('<div class="box"></div>');
     $(".box").hover(handleHover);
     $(".box").click(handleClick);
-    // $p.toggle('slow');
-    // $p.slideUp();
-    // $p.slideToggle(3000);
-    // $myButton.text("Hide");
-    // $p.addClass('orange');
-    // $p.removeClass('orange');
-    // $p.toggleClass('orange');
-    // $box.fadeOut(2000);
-    ////
-    // $box.animate({
-    //     left: '250px',
-    //     bottom: '200px',
-    //     opacity: '0.4',
-    //     height: '400px',
-    //     width: "800px"
-    // }, 5000);
+    $p.toggle('slow');
+    $p.slideUp();
+    $p.slideToggle(3000);
+    $myButton.text("Hide");
+    $p.addClass('orange');
+    $p.removeClass('orange');
+    $p.toggleClass('orange');
+    $box.fadeOut(2000);
+    //
+    $box.animate({
+        left: '250px',
+        bottom: '200px',
+        opacity: '0.4',
+        height: '400px',
+        width: "800px"
+    }, 5000);
   };
 
   const handleHover = function() {
